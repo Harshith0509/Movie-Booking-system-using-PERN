@@ -1,0 +1,124 @@
+
+.app1{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+  /* background-color: red; */
+    height: 100vh;
+    background: black;
+    background-size: cover;
+    background-position: center;
+}
+#confirmation{
+    color:#fff;
+}
+
+#promo-buttons button{
+background-color: #e50914;
+margin: 10px;
+}
+#promo-buttons input{
+    color:#7a7979;
+}
+#promo-buttons{
+    padding: 20px;
+    margin: 15px;
+}
+
+.container1 {
+    background-color: #1c1c1c;
+    color:#fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    border:2px solid #fff;
+    justify-content: center;
+}
+
+.header {
+    text-align: center;
+}
+
+.ticket {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.ticket-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.ticket-name,
+.ticket-price,
+.ticket-quantity {
+    flex-basis: 33.33%;
+}
+
+.quantity-controls {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.quantity-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.delete-btn {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.total-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.total-label {
+    font-weight: bold;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.update-btn ,.submit-order-btn{
+    background-color: #e50914;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+
+.update-btn:hover,
+.confirm-btn:hover {
+    background-color: #7a7979;
+}
+.submit-order-btn{
+    margin-top: 1rem;
+}

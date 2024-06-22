@@ -1,0 +1,147 @@
+
+.registration-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background:
+    url("background_image.png");
+  background-size: cover;
+  background-position: center;
+  overflow: auto;
+  
+}
+.center registration-heading{
+  color:white;
+}
+
+.registration-container .container {
+  text-align: center; 
+}
+
+.registration-container form {
+  background-color: white;
+  color: black; 
+  padding: 20px 60px;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: 20px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.registration-heading {
+  font-size: 30px; 
+}
+
+
+.registration-container .register-button:hover {
+  background-color: #eb2b2b;
+}
+
+.registration-container .register-button[type="submit"] {
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  border: none;
+  background-color: #e50914;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+
+.registration-container h2{
+    color: #fff;
+    text-align: center;
+    margin-top: 0;
+}
+
+.registration-container label {
+    color: black;
+    font-weight: bold;
+}
+
+.registration-container input,
+.registration-container select {
+    width: calc(100% - 22px); 
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+.registration-container .checkbox-wrapper {
+  /* display: flex !important; */
+  align-items: center;
+  margin-top: 3px;
+}
+
+
+.registration-container .checkbox-wrapper input {
+  margin-left: -100px;
+  margin-right: -120px;
+}
+
+
+.registration-container .checkbox-wrapper label {
+  font-size: 12px;
+  color: black;
+  font-weight: 700;
+  width: auto; 
+  text-align: left; 
+  margin-right: -5px; 
+  display: inline-block; 
+}
+
+
+.registration-container .card-information {
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+
+.registration-container .password-error-container {
+  margin-top: 5px;
+  width: 100%; 
+  position: relative;
+}
+
+.registration-container .password-error-message {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px; 
+  display: block;
+  max-height: 50px; 
+  overflow-y: auto; 
+  position: absolute; 
+  bottom: -120px; 
+  left: 0; 
+}
+
+.registration-container .formInput[name="confirmPassword"] {
+  margin-top: 100px; 
+}
+
+.registration-container .empty-space {
+  height: 40px; 
+}
+.checkbox-wrapper{
+ margin: 0;
+ padding: 0;
+
+
+}
+#chechbox-form-input-label{
+  padding-left: 1rem;
+}
+#chechbox-form-input{
+  margin: auto;
+  width: 1.7rem;
+  height: 1.7rem;
+ 
+}

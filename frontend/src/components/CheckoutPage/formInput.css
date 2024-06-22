@@ -1,0 +1,36 @@
+/* formInput.css */
+
+.formInput {
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+}
+
+.formInput input {
+    padding: 15px;
+    margin: 10px 0px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.formInput label {
+    font-size: 1.5rem;
+    color: black;
+    /* letter-spacing: 3px; */
+    font-weight: 800;
+}
+
+.formInput span {
+    font-size: 12px;
+    padding: 3px;
+    color: red;
+    display: none;
+}
+
+.formInput input.invalid {
+    border: 1px solid red;
+}
+
+.formInput input.invalid + span {
+    display: block;
+}
